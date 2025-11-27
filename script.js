@@ -81,13 +81,13 @@ document.addEventListener("DOMContentLoaded", function () {
             e.preventDefault();
             
             // URL directa de descarga de Google Drive
-            const fileId = '1BCe4kFarGjUJD6xs0OmXOVwFsTzKki0b';
+            const fileId = '1RFf6en6JnQ8keDhvnFIhGq5XUh2pjMH7';
             const directDownloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
             
             // Crear un enlace temporal para descarga
             const link = document.createElement('a');
             link.href = directDownloadUrl;
-            link.setAttribute('download', 'CV_Wilmer Admidael Batz.pdf'); 
+            link.setAttribute('download', 'CV-Wilmer-Batz.pdf'); 
             link.setAttribute('target', '_blank'); 
             
             // Simular click en el enlace
