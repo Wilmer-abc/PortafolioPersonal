@@ -81,13 +81,13 @@ document.addEventListener("DOMContentLoaded", function () {
             e.preventDefault();
             
             // URL directa de descarga de Google Drive
-            const fileId = '1RFf6en6JnQ8keDhvnFIhGq5XUh2pjMH7';
+            const fileId = '1aDhDhViyeXeI6k5w2VryY2PxJSA5Sl3V';
             const directDownloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
-            
+                                    
             // Crear un enlace temporal para descarga
             const link = document.createElement('a');
             link.href = directDownloadUrl;
-            link.setAttribute('download', 'CV-Wilmer-Batz.pdf'); 
+            link.setAttribute('download', 'Wilmer_Batz_CV'); 
             link.setAttribute('target', '_blank'); 
             
             // Simular click en el enlace
