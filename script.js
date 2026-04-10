@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", function () {
             e.preventDefault();
             
             // URL directa de descarga de Google Drive
-            const fileId = '1aDhDhViyeXeI6k5w2VryY2PxJSA5Sl3V';
+            const fileId = '1d8S70s_WTr9epWwX3bZSsH3gP-la0_eY';
             const directDownloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
                                     
             // Crear un enlace temporal para descarga
